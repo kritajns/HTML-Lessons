@@ -1,0 +1,189 @@
+/*============ Main Body ============*/
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-color: cornsilk;
+}
+
+
+/*============ Header ============*/
+
+header {
+    font-size: 24px;
+    text-align: center;
+    background-color: darkblue;
+    word-spacing: 40px;
+    font-family: cursive;
+    color: white;
+    top: 0;
+}
+
+
+/*============ Navigation Items ============*/
+
+#navbar {
+    padding: 16px;
+}
+
+nav a {
+    padding: 14px 12px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: brown;
+    margin: 0;
+}
+
+
+/*============ Background Image ============*/
+
+.main-img {
+    text-align: center;
+    width: 100%;
+    height: 520px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+#bg_img {
+    margin: 0 auto;
+}
+
+
+/*============ Table Properties ============*/
+table {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+
+/*============ Image Gallery ============*/
+
+#gallery {
+    padding-left: 65px;
+    text-align: center;
+}
+
+#image-gallery {
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.image-item {
+    width: 360px;
+    height: 250px;
+    display: block;
+}
+
+figure {
+    text-align: center;
+    align-content: center;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    color: white;  
+}
+
+.caption {
+    background-color: deepskyblue;
+    width: 340px;
+    height: 20px;
+    padding: 10px;
+    margin: 0px;
+    align-content: center;
+}
+
+
+/*============ Paragraphs ============*/
+p {
+    font-size: 18px;
+    font-family: serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 0;
+    padding: 30px;
+    line-height: 1.4;  
+}
+
+
+/*============ Form Registration ============*/
+
+#register-form {
+    border-color: #ccc;
+    border-width: 1px;
+    background-color: white;
+    width: 38%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+#input-field {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 200px;
+}
+
+.input-item {
+    width: 100%;
+    height:16px;
+    font-size: 18px;
+    padding-bottom: 16px;
+    margin-bottom: 36px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid grey;
+    background-color: white;
+}
+
+
+/*============ Submit Button ============*/
+
+.btn-submit {
+    background-color: darkblue;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    
+}
+
+
+/*============ Footer ============*/
+footer {
+    font-size: 24px;
+    text-align: center;
+    background-color: black;
+    word-spacing: 40px;
+    font-family: cursive;
+    color: white;
+    top: 0;
+}
